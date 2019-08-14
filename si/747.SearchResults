@@ -1,0 +1,9 @@
+---- ReadParam Matches (12 in 6 files) ----
+New626.htm (prj): <LI><a href="#[4f]">ReadParam</a> from common.o(.text) referenced from main.o(.text)
+New626.htm (prj):<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ReadParam
+New626.htm (prj):<P><STRONG><a name="[4f]"></a>ReadParam</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, common.o(.text))
+New626.htm (prj):<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ReadParam &rArr; I2C_EE_BufferRead &rArr; I2C_CheckEvent
+STMR2000.htm (out): <LI><a href="#[54]">ReadParam</a> from common.o(i.ReadParam) referenced from main.o(i.registryParams)
+STMR2000.htm (out):<P><STRONG><a name="[54]"></a>ReadParam</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, common.o(i.ReadParam))
+STMR2000.htm (out):<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ReadParam &rArr; STMFLASH_Read
+STMR2000.htm (out):<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ReadParam

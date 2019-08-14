@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\VANCH\747\747-内部Flash-外部RTC-20190415\PRJ\New626.uvproj
+Project File Date:  04/28/2019
+
+<h2>Output:</h2>
+Build target 'New626'
+compiling Local_485_module.c...
+linking...
+Program Size: Code=55056 RO-data=512 RW-data=320 ZI-data=62104  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output ..\out\STMR2000.bin ..\out\STMR2000.axf -z
+"..\out\STMR2000.axf" - 0 Errors, 0 Warning(s).
