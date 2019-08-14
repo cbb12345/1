@@ -1,0 +1,17 @@
+修改心跳机制
+
+tcp.c
+struct tcp_pcb *
+tcp_alloc(u8_t prio)
+
+pcb->so_options |= SOF_KEEPALIVE;//为了在客户端能够使用保活机制
+
+lwipopts.h
+#define  TCP_KEEPIDLE_DEFAULT     7200000UL//2h后第一次发送保活包
+#define  TCP_KEEPINTVL_DEFAULT    75000UL//每隔75s发送一个保活包
+#define  TCP_KEEPCNT_DEFAULT      9U//连续9次没有收到对方回应，认为连接已断开
+
+在固件中设置
+#define  TCP_KEEPIDLE_DEFAULT     1800000UL //30分钟后开启保活包
+#define  TCP_KEEPINTVL_DEFAULT    6000000UL //每隔10分钟发送一次
+#define  TCP_KEEPCNT_DEFAULT      5U        //连发5次，都没有回复，关闭TCP连接

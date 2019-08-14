@@ -1,0 +1,524 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\work\release\7471\PRJ\New626.uvproj
+Project File Date:  06/15/2017
+
+<h2>Output:</h2>
+Build target 'New626'
+compiling core_cm3.c...
+core_cm3.c: error: C3903U: Argument 'DCM' not permitted for option 'device'.
+Target not created
+Build target 'New626'
+compiling core_cm3.c...
+core_cm3.c: error: C3903U: Argument 'DCM' not permitted for option 'device'.
+Target not created
+Build target 'New626'
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+compiling netconf.c...
+compiling stm32f10x_it.c...
+compiling stm32f107.c...
+compiling RTC_Time.c...
+compiling IIC.c...
+compiling Local_232_module.c...
+compiling UDP_module.c...
+compiling common.c...
+compiling ParamItem.c...
+compiling WG.c...
+compiling Local_485_module.c...
+compiling RFIDModule.c...
+..\usr\RFIDModule.c(141): warning:  #63-D: shift count is too large
+compiling R2000.c...
+compiling ethernetif.c...
+..\lwip-1.3.1\port\ethernetif.c(323): warning:  #236-D: controlling expression is constant
+compiling api_lib.c...
+compiling api_msg.c...
+compiling err.c...
+compiling netbuf.c...
+compiling netdb.c...
+compiling netifapi.c...
+compiling sockets.c...
+compiling tcpip.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling init.c...
+compiling mem.c...
+..\lwip-1.3.1\src\core\mem.c(229): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(230): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(231): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(234): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(266): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(306): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(308): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(325): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(378): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(396): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(584): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(588): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(590): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(592): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(184): warning:  #550-D: variable "mem_sem" was set but never used
+compiling memp.c...
+..\lwip-1.3.1\src\core\memp.c(315): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\memp.c(332): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\memp.c(360): warning:  #236-D: controlling expression is constant
+compiling netif.c...
+compiling pbuf.c...
+..\lwip-1.3.1\src\core\pbuf.c(177): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(194): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(200): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(203): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(229): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(234): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(236): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(261): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(282): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(316): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(317): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(340): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(344): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(354): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(397): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(404): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(451): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(505): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(514): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(529): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(618): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(627): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(628): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(681): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(698): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(729): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(735): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(747): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(753): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(762): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(767): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(794): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(795): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(842): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(843): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(851): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(862): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(892): warning:  #236-D: controlling expression is constant
+compiling raw.c...
+..\lwip-1.3.1\src\core\raw.c(232): warning:  #236-D: controlling expression is constant
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+..\lwip-1.3.1\src\core\tcp.c(265): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(356): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(427): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(505): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(581): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(582): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(583): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(720): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(724): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(756): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(771): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(775): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(1239): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(1240): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(1248): warning:  #236-D: controlling expression is constant
+compiling tcp_in.c...
+..\lwip-1.3.1\src\core\tcp_in.c(181): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(182): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(183): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(192): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(198): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(208): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(376): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(529): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(579): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(616): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(870): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(876): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(910): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(915): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1008): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1009): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1011): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1024): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1029): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1077): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1123): warning:  #236-D: controlling expression is constant
+compiling tcp_out.c...
+..\lwip-1.3.1\src\core\tcp_out.c(169): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(172): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(203): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(206): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(235): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(250): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(354): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(366): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(403): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(422): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(557): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(458): warning:  #550-D: variable "tcphdr" was set but never used
+..\lwip-1.3.1\src\core\tcp_out.c(758): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(887): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(871): warning:  #550-D: variable "tcphdr" was set but never used
+..\lwip-1.3.1\src\core\tcp_out.c(953): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(925): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+..\lwip-1.3.1\src\core\udp.c(274): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\udp.c(301): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\udp.c(449): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\udp.c(593): warning:  #236-D: controlling expression is constant
+compiling autoip.c...
+compiling icmp.c...
+..\lwip-1.3.1\src\core\ipv4\icmp.c(150): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(159): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(163): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(169): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(179): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(222): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(308): warning:  #236-D: controlling expression is constant
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+..\lwip-1.3.1\src\core\ipv4\ip.c(576): warning:  #236-D: controlling expression is constant
+compiling ip_addr.c...
+compiling ip_frag.c...
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(162): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(164): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(197): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(306): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(340): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(396): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(404): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(437): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(438): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(440): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(442): warning:  #236-D: controlling expression is constant
+compiling etharp.c...
+..\lwip-1.3.1\src\netif\etharp.c(146): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(147): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(151): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(372): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(394): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(433): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(472): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(583): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(628): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(709): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(911): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(944): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(1050): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(1057): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(1149): warning:  #236-D: controlling expression is constant
+compiling stm32_eth.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+linking...
+Program Size: Code=67502 RO-data=526 RW-data=312 ZI-data=60112  
+FromELF: creating hex file...
+User command #1: fromelf --bin --output STMR2000.bin STMR2000.axf -z
+"STMR2000.axf" - 0 Error(s), 150 Warning(s).
+Clean started: Project: 'New626'
+   deleting intermediate output files for target 'New626'
+Build target 'New626'
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+compiling netconf.c...
+compiling stm32f10x_it.c...
+compiling stm32f107.c...
+compiling RTC_Time.c...
+compiling IIC.c...
+compiling Local_232_module.c...
+compiling UDP_module.c...
+compiling common.c...
+compiling ParamItem.c...
+compiling WG.c...
+compiling Local_485_module.c...
+compiling RFIDModule.c...
+..\usr\RFIDModule.c(141): warning:  #63-D: shift count is too large
+compiling R2000.c...
+compiling ethernetif.c...
+..\lwip-1.3.1\port\ethernetif.c(323): warning:  #236-D: controlling expression is constant
+compiling api_lib.c...
+compiling api_msg.c...
+compiling err.c...
+compiling netbuf.c...
+compiling netdb.c...
+compiling netifapi.c...
+compiling sockets.c...
+compiling tcpip.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling init.c...
+compiling mem.c...
+..\lwip-1.3.1\src\core\mem.c(229): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(230): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(231): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(234): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(266): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(306): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(308): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(325): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(378): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(396): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(584): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(588): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(590): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(592): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\mem.c(184): warning:  #550-D: variable "mem_sem" was set but never used
+compiling memp.c...
+..\lwip-1.3.1\src\core\memp.c(315): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\memp.c(332): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\memp.c(360): warning:  #236-D: controlling expression is constant
+compiling netif.c...
+compiling pbuf.c...
+..\lwip-1.3.1\src\core\pbuf.c(177): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(194): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(200): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(203): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(229): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(234): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(236): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(261): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(282): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(316): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(317): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(340): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(344): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(354): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(397): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(404): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(451): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(505): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(514): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(529): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(618): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(627): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(628): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(681): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(698): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(729): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(735): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(747): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(753): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(762): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(767): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(794): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(795): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(842): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(843): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(851): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(862): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\pbuf.c(892): warning:  #236-D: controlling expression is constant
+compiling raw.c...
+..\lwip-1.3.1\src\core\raw.c(232): warning:  #236-D: controlling expression is constant
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+..\lwip-1.3.1\src\core\tcp.c(265): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(356): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(427): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(505): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(581): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(582): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(583): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(720): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(724): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(756): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(771): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(775): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(1239): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(1240): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp.c(1248): warning:  #236-D: controlling expression is constant
+compiling tcp_in.c...
+..\lwip-1.3.1\src\core\tcp_in.c(181): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(182): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(183): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(192): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(198): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(208): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(376): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(529): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(579): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(616): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(870): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(876): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(910): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(915): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1008): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1009): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1011): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1024): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1029): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1077): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_in.c(1123): warning:  #236-D: controlling expression is constant
+compiling tcp_out.c...
+..\lwip-1.3.1\src\core\tcp_out.c(169): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(172): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(203): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(206): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(235): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(250): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(354): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(366): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(403): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(422): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(557): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(458): warning:  #550-D: variable "tcphdr" was set but never used
+..\lwip-1.3.1\src\core\tcp_out.c(758): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(887): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(871): warning:  #550-D: variable "tcphdr" was set but never used
+..\lwip-1.3.1\src\core\tcp_out.c(953): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\tcp_out.c(925): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+..\lwip-1.3.1\src\core\udp.c(274): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\udp.c(301): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\udp.c(449): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\udp.c(593): warning:  #236-D: controlling expression is constant
+compiling autoip.c...
+compiling icmp.c...
+..\lwip-1.3.1\src\core\ipv4\icmp.c(150): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(159): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(163): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(169): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(179): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(222): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\icmp.c(308): warning:  #236-D: controlling expression is constant
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+..\lwip-1.3.1\src\core\ipv4\ip.c(576): warning:  #236-D: controlling expression is constant
+compiling ip_addr.c...
+compiling ip_frag.c...
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(162): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(164): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(197): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(306): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(340): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(396): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(404): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(437): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(438): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(440): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\core\ipv4\ip_frag.c(442): warning:  #236-D: controlling expression is constant
+compiling etharp.c...
+..\lwip-1.3.1\src\netif\etharp.c(146): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(147): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(151): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(372): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(394): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(433): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(472): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(583): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(628): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(709): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(911): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(944): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(1050): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(1057): warning:  #236-D: controlling expression is constant
+..\lwip-1.3.1\src\netif\etharp.c(1149): warning:  #236-D: controlling expression is constant
+compiling stm32_eth.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+linking...
+Program Size: Code=67502 RO-data=526 RW-data=312 ZI-data=60112  
+FromELF: creating hex file...
+User command #1: fromelf --bin --output STMR2000.bin STMR2000.axf -z
+"STMR2000.axf": Error: Q0122E: Could not open file 'STMR2000.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+"..\out\STMR2000.axf" - 0 Error(s), 150 Warning(s).
+Build target 'New626'
+linking...
+Program Size: Code=67502 RO-data=526 RW-data=312 ZI-data=60112  
+FromELF: creating hex file...
+User command #1: fromelf --bin --output ..\out\STMR2000.bin ..\out\STMR2000.axf -z
+"..\out\STMR2000.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\STMR2000.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.364V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

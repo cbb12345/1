@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\inc -I..\lwip-1.3.1\src\include\ipv4 -I..\lwip-1.3.1\src\include\lwip -I..\lwip-1.3.1\src\include\netif -I..\Libraries\STM32_ETH_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\Core\CM3 -I..\lwip-1.3.1\src\include -I..\lwip-1.3.1\port 
+-I F:\Keil_v5\ARM\RV31\INC 
+-I F:\Keil_v5\ARM\CMSIS\Include 
+-I F:\Keil_v5\ARM\Inc\ST\STM32F10x 
+-o "httpd.o" --omf_browse "httpd.crf" --depend "httpd.d" "..\lwip-1.3.1\port\httpd.c"

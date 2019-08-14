@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{c0e986c3-fb79-4de4-b2cd-ad371094866d}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{97d9b00c-0969-4d88-b540-e2d2111525d6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{8dbe71e7-4d31-4dd1-ae3a-711e36e6fe0d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header files\GDB">
+      <UniqueIdentifier>{51550307-0241-4c43-bb68-7aed6d180200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GDB\747">
+      <UniqueIdentifier>{8e673858-ff29-4658-bdf5-5bc03e8baa1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\inc">
+      <UniqueIdentifier>{2d1ae8c8-1dfd-40eb-9272-775274ab7487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries">
+      <UniqueIdentifier>{6324742f-ab96-4c75-bb4c-f0c83cee10b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS">
+      <UniqueIdentifier>{776e2963-92a4-4ba4-9093-10af7a811dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\Core">
+      <UniqueIdentifier>{1053f019-c3eb-4632-9b92-03c7d5310dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\Core\CM3">
+      <UniqueIdentifier>{29ff52e9-383d-4139-bc75-e8e9ed556767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries">
+      <UniqueIdentifier>{d1ed2b14-e771-46d7-9701-3c7a11a0ee39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS">
+      <UniqueIdentifier>{98acf1e1-b806-4950-92a6-ef55476a39fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\Core">
+      <UniqueIdentifier>{7848fdc8-ea11-4c47-885b-885de6fd584c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\Core\CM3">
+      <UniqueIdentifier>{91e13f38-c9dd-487a-886b-65c459353de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32F10x_StdPeriph_Driver">
+      <UniqueIdentifier>{a3b226dd-0c49-4a40-8d6b-332ba3b3139c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32F10x_StdPeriph_Driver\inc">
+      <UniqueIdentifier>{f64094b8-15a4-4d74-abfe-70a6c6acbfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32F10x_StdPeriph_Driver">
+      <UniqueIdentifier>{1a63d9aa-652d-4399-9151-11c36208c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32F10x_StdPeriph_Driver\src">
+      <UniqueIdentifier>{d219d6e7-6372-46c6-af1e-9fc1eea9b713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32_ETH_Driver">
+      <UniqueIdentifier>{65d5e0e0-2bc3-4949-aee0-30f099dcff2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32_ETH_Driver\inc">
+      <UniqueIdentifier>{562ca805-36f1-49e5-93a8-ef73e0d5da5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32_ETH_Driver">
+      <UniqueIdentifier>{8134f89e-5ea0-4204-a164-ed64786fa14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32_ETH_Driver\src">
+      <UniqueIdentifier>{541cbc98-e57b-4d98-8f29-ebd2cad0260d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1">
+      <UniqueIdentifier>{02da1970-d649-475d-a99c-d8e72a07d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\port">
+      <UniqueIdentifier>{73b473e0-30e8-42e8-a8c4-5b1c64c85b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1">
+      <UniqueIdentifier>{d0612640-74ac-4508-9455-1d41b083a969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\port">
+      <UniqueIdentifier>{60303f9e-6dc7-452c-ae2a-4110f43f702e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\port\arch">
+      <UniqueIdentifier>{4d551f60-e290-482a-a1d0-62482639b5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\port\arch">
+      <UniqueIdentifier>{ba02cbee-a84a-4150-80d8-21a29feb6cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\port\arch\junk">
+      <UniqueIdentifier>{fd59a9e8-492e-44f7-bbae-1761030e2661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\port\arch\junk">
+      <UniqueIdentifier>{350233ae-5708-4a8e-aa6a-a025b347d1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src">
+      <UniqueIdentifier>{c8cd55c9-6711-4b77-8c29-46e6c55c91fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\api">
+      <UniqueIdentifier>{bbbb3530-c53f-4b14-b667-1473a110e4c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\core">
+      <UniqueIdentifier>{7e7dcecd-1907-439c-b26a-e2819500b15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\core\ipv4">
+      <UniqueIdentifier>{a65f5142-c888-4605-b3e2-72a559541692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\core\ipv6">
+      <UniqueIdentifier>{665735e2-8454-4644-b6aa-251e2ce1ddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\core\snmp">
+      <UniqueIdentifier>{dc507776-cda3-4f2c-86d1-d68df5d290d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src">
+      <UniqueIdentifier>{c6c5ab38-c93c-4d98-b7f0-744448dee5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include">
+      <UniqueIdentifier>{3117a3ce-6e32-46cb-a38f-845c49fed55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include\ipv4">
+      <UniqueIdentifier>{36d1208b-b739-4b78-b05f-ecc023fec9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include\ipv4\lwip">
+      <UniqueIdentifier>{ccaf4c4d-9799-4876-b7e5-21bb427e9a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include\ipv6">
+      <UniqueIdentifier>{c5c7074f-be60-48b2-8c81-f34c58b19ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include\ipv6\lwip">
+      <UniqueIdentifier>{e4809044-bc9b-44ab-a2b8-96795b9e8881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include\lwip">
+      <UniqueIdentifier>{2d5cda27-03cd-4399-8bd4-06e0afc8c86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\include\netif">
+      <UniqueIdentifier>{e994598a-d2d8-4c60-a570-94bc3223c3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\netif">
+      <UniqueIdentifier>{c9788908-85d5-433d-9390-617e02d35686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.3.1\src\netif\ppp">
+      <UniqueIdentifier>{7dbb6331-3b78-4690-8e0c-7407b53f2bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\netif">
+      <UniqueIdentifier>{84fb735c-b7fd-4aba-ab2d-4ce1cfabb0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.3.1\src\netif\ppp">
+      <UniqueIdentifier>{6163b869-c0e7-49d2-9be1-4a829af0072c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\usr">
+      <UniqueIdentifier>{e3ac4d8a-a6b1-43b1-999e-3e357e6a704f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\usr">
+      <UniqueIdentifier>{e67e80c1-0014-49c2-9fa0-affe139a7e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{7360ace0-bf47-465b-82d6-7927a79e514c}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{b09e275d-930b-4aac-b4ac-eb8bbe057fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{47dc54b5-987d-45b5-bdd9-5ee0d597ddc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GDB\747\gcc_Debug.h">
+      <Filter>Header files\GDB\747</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GDB\747\gcc_Release.h">
+      <Filter>Header files\GDB\747</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\common.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IIC.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Local_232_module.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Local_485_module.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\Main.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\netconf.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\ParamItem.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\R2000.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\RFIDModule.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\RTC_Time.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\stm32f107.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\stm32f10x_conf.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\stm32f10x_it.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\UDP_module.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\WG.h">
+      <Filter>Header files\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\CMSIS\Core\CM3\core_cm3.h">
+      <Filter>Header files\Libraries\CMSIS\Core\CM3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h">
+      <Filter>Header files\Libraries\CMSIS\Core\CM3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.h">
+      <Filter>Header files\Libraries\CMSIS\Core\CM3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\STM32_ETH_Driver\inc\stm32_eth.h">
+      <Filter>Header files\Libraries\STM32_ETH_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\ethernetif.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\fsdata.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\helloworld.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\httpd.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\lwipopts.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\tftpserver.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\tftputils.h">
+      <Filter>Header files\lwip-1.3.1\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\bpstruct.h">
+      <Filter>Header files\lwip-1.3.1\port\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\cc.h">
+      <Filter>Header files\lwip-1.3.1\port\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\cpu.h">
+      <Filter>Header files\lwip-1.3.1\port\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\epstruct.h">
+      <Filter>Header files\lwip-1.3.1\port\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\perf.h">
+      <Filter>Header files\lwip-1.3.1\port\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\junk\init.h">
+      <Filter>Header files\lwip-1.3.1\port\arch\junk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\junk\lib.h">
+      <Filter>Header files\lwip-1.3.1\port\arch\junk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\junk\sys_arch.h">
+      <Filter>Header files\lwip-1.3.1\port\arch\junk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\autoip.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\icmp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\igmp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\inet.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\inet_chksum.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\ip.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\ip_addr.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\ip_frag.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\icmp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv6\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\inet.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv6\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\ip.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv6\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\ip_addr.h">
+      <Filter>Header files\lwip-1.3.1\src\include\ipv6\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\api.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\api_msg.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\arch.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\debug.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\def.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\dhcp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\dns.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\err.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\init.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\mem.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\memp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\memp_std.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netbuf.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netdb.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netif.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netifapi.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\opt.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\pbuf.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\raw.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\sio.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp_asn1.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp_msg.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp_structs.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\sockets.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\stats.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\sys.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\tcp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\tcpip.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\udp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\etharp.h">
+      <Filter>Header files\lwip-1.3.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\loopif.h">
+      <Filter>Header files\lwip-1.3.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\ppp_oe.h">
+      <Filter>Header files\lwip-1.3.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\slipif.h">
+      <Filter>Header files\lwip-1.3.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\auth.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\chap.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\chpms.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\fsm.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\ipcp.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\lcp.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\magic.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\md5.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\pap.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\ppp.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\pppdebug.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\randm.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\vj.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\vjbsdhdr.h">
+      <Filter>Header files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\usr\IIC.h">
+      <Filter>Header files\usr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\CMSIS\Core\CM3\core_cm3.c">
+      <Filter>Source files\Libraries\CMSIS\Core\CM3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.c">
+      <Filter>Source files\Libraries\CMSIS\Core\CM3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM32_ETH_Driver\src\stm32_eth.c">
+      <Filter>Source files\Libraries\STM32_ETH_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\client.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\ethernetif.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\fsdata.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\helloworld.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\httpd.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\server.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\tftpserver.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\tftputils.c">
+      <Filter>Source files\lwip-1.3.1\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\port\arch\junk\sys_arch.c">
+      <Filter>Source files\lwip-1.3.1\port\arch\junk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\api_lib.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\api_msg.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\err.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\netbuf.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\netdb.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\netifapi.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\sockets.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\tcpip.c">
+      <Filter>Source files\lwip-1.3.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\dhcp.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\dns.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\init.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\mem.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\memp.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\netif.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\pbuf.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\raw.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\stats.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\sys.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\tcp.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\tcp_in.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\tcp_out.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\udp.c">
+      <Filter>Source files\lwip-1.3.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\autoip.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\icmp.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\igmp.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\inet.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\inet_chksum.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\ip.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\ip_addr.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\ip_frag.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\icmp6.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\inet6.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\ip6.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\ip6_addr.c">
+      <Filter>Source files\lwip-1.3.1\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\asn1_dec.c">
+      <Filter>Source files\lwip-1.3.1\src\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\asn1_enc.c">
+      <Filter>Source files\lwip-1.3.1\src\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\mib2.c">
+      <Filter>Source files\lwip-1.3.1\src\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\mib_structs.c">
+      <Filter>Source files\lwip-1.3.1\src\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\msg_in.c">
+      <Filter>Source files\lwip-1.3.1\src\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\msg_out.c">
+      <Filter>Source files\lwip-1.3.1\src\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\etharp.c">
+      <Filter>Source files\lwip-1.3.1\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ethernetif.c">
+      <Filter>Source files\lwip-1.3.1\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\loopif.c">
+      <Filter>Source files\lwip-1.3.1\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\slipif.c">
+      <Filter>Source files\lwip-1.3.1\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\auth.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\chap.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\chpms.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\fsm.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\ipcp.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\lcp.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\magic.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\md5.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\pap.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\ppp.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\ppp_oe.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\randm.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\vj.c">
+      <Filter>Source files\lwip-1.3.1\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\common.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\IIC.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\Local_232_module.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\Local_485_module.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\main.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\netconf.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\ParamItem.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\R2000.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\RFIDModule.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\RTC_Time.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\stm32f107.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\stm32f10x_it.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\UDP_module.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\usr\WG.c">
+      <Filter>Source files\usr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F1xxxx\StartupFiles\startup_stm32f107xc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="stm32.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

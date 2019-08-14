@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D777E6E7-5D5E-4931-8B6B-FBF667173ADA}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\Users\Administrator\Desktop\work\release\747v1\GDB_747\747v1;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\arm-eabi\thumb\cortex_m3;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\backward;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include-fixed;c:\sysgcc\arm-eabi\arm-eabi\sys-include;c:\sysgcc\arm-eabi\arm-eabi\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\stm32_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)747v1-Debug.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\Users\Administrator\Desktop\work\release\747v1\GDB_747\747v1;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\arm-eabi\thumb\cortex_m3;c:\sysgcc\arm-eabi\arm-eabi\include\c++\6.2.0\backward;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include;c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\6.2.0\include-fixed;c:\sysgcc\arm-eabi\arm-eabi\sys-include;c:\sysgcc\arm-eabi\arm-eabi\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\stm32_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)747v1-Release.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="debug.mak" />
+    <None Include="Makefile" />
+    <None Include="release.mak" />
+    <None Include="stm32.mak" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GDB\747\gcc_Debug.h" />
+    <ClInclude Include="..\..\GDB\747\gcc_Release.h" />
+    <ClInclude Include="..\..\inc\common.h" />
+    <ClInclude Include="..\..\inc\IIC.h" />
+    <ClInclude Include="..\..\inc\Local_232_module.h" />
+    <ClInclude Include="..\..\inc\Local_485_module.h" />
+    <ClInclude Include="..\..\inc\Main.h" />
+    <ClInclude Include="..\..\inc\netconf.h" />
+    <ClInclude Include="..\..\inc\ParamItem.h" />
+    <ClInclude Include="..\..\inc\R2000.h" />
+    <ClInclude Include="..\..\inc\RFIDModule.h" />
+    <ClInclude Include="..\..\inc\RTC_Time.h" />
+    <ClInclude Include="..\..\inc\stm32f107.h" />
+    <ClInclude Include="..\..\inc\stm32f10x_conf.h" />
+    <ClInclude Include="..\..\inc\stm32f10x_it.h" />
+    <ClInclude Include="..\..\inc\UDP_module.h" />
+    <ClInclude Include="..\..\inc\WG.h" />
+    <ClInclude Include="..\..\Libraries\CMSIS\Core\CM3\core_cm3.h" />
+    <ClInclude Include="..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h" />
+    <ClInclude Include="..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" />
+    <ClInclude Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h" />
+    <ClInclude Include="..\..\Libraries\STM32_ETH_Driver\inc\stm32_eth.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\ethernetif.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\fsdata.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\helloworld.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\httpd.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\lwipopts.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\tftpserver.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\tftputils.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\bpstruct.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\cc.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\cpu.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\epstruct.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\perf.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\junk\init.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\junk\lib.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\port\arch\junk\sys_arch.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\autoip.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\icmp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\igmp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\inet.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\inet_chksum.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\ip.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\ip_addr.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv4\lwip\ip_frag.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\icmp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\inet.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\ip.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\ipv6\lwip\ip_addr.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\api.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\api_msg.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\arch.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\debug.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\def.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\dhcp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\dns.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\err.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\init.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\mem.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\memp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\memp_std.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netbuf.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netdb.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netif.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\netifapi.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\opt.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\pbuf.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\raw.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\sio.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp_asn1.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp_msg.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\snmp_structs.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\sockets.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\stats.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\sys.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\tcp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\tcpip.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\lwip\udp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\etharp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\loopif.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\ppp_oe.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\include\netif\slipif.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\auth.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\chap.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\chpms.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\fsm.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\ipcp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\lcp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\magic.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\md5.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\pap.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\ppp.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\pppdebug.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\randm.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\vj.h" />
+    <ClInclude Include="..\..\lwip-1.3.1\src\netif\ppp\vjbsdhdr.h" />
+    <ClInclude Include="..\..\usr\IIC.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F1xxxx\StartupFiles\startup_stm32f107xc.c" />
+    <ClCompile Include="..\..\Libraries\CMSIS\Core\CM3\core_cm3.c" />
+    <ClCompile Include="..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="..\..\Libraries\STM32_ETH_Driver\src\stm32_eth.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\client.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\ethernetif.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\fsdata.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\helloworld.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\httpd.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\server.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\tftpserver.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\tftputils.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\port\arch\junk\sys_arch.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\api_lib.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\api_msg.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\err.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\netbuf.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\netdb.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\netifapi.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\sockets.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\api\tcpip.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\dhcp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\dns.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\init.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\mem.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\memp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\netif.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\pbuf.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\raw.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\stats.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\sys.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\tcp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\tcp_in.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\tcp_out.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\udp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\autoip.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\icmp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\igmp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\inet.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\inet_chksum.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\ip.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\ip_addr.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv4\ip_frag.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\icmp6.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\inet6.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\ip6.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\ipv6\ip6_addr.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\asn1_dec.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\asn1_enc.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\mib2.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\mib_structs.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\msg_in.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\core\snmp\msg_out.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\etharp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ethernetif.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\loopif.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\slipif.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\auth.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\chap.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\chpms.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\fsm.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\ipcp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\lcp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\magic.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\md5.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\pap.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\ppp.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\ppp_oe.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\randm.c" />
+    <ClCompile Include="..\..\lwip-1.3.1\src\netif\ppp\vj.c" />
+    <ClCompile Include="..\..\usr\common.c" />
+    <ClCompile Include="..\..\usr\IIC.c" />
+    <ClCompile Include="..\..\usr\Local_232_module.c" />
+    <ClCompile Include="..\..\usr\Local_485_module.c" />
+    <ClCompile Include="..\..\usr\main.c" />
+    <ClCompile Include="..\..\usr\netconf.c" />
+    <ClCompile Include="..\..\usr\ParamItem.c" />
+    <ClCompile Include="..\..\usr\R2000.c" />
+    <ClCompile Include="..\..\usr\RFIDModule.c" />
+    <ClCompile Include="..\..\usr\RTC_Time.c" />
+    <ClCompile Include="..\..\usr\stm32f107.c" />
+    <ClCompile Include="..\..\usr\stm32f10x_it.c" />
+    <ClCompile Include="..\..\usr\UDP_module.c" />
+    <ClCompile Include="..\..\usr\WG.c" />
+  </ItemGroup>
+</Project>

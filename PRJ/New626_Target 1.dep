@@ -1,0 +1,65 @@
+Dependencies for Project 'New626', Target 'Target 1': (DO NOT MODIFY !)
+F (..\Libraries\CMSIS\Core\CM3\core_cm3.c)(0x4B065C3E)()
+F (..\Libraries\CMSIS\Core\CM3\system_stm32f10x.c)(0x4B065C3E)()
+F (..\Libraries\CMSIS\Core\CM3\startup\arm\startup_stm32f10x_cl.s)(0x4B065C3E)()
+F (..\usr\main.c)(0x4B065C40)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\inc -I F:\Keil_v5\ARM\RV31\INC -I F:\Keil_v5\ARM\CMSIS\Include -I F:\Keil_v5\ARM\Inc\ST\STM32F10x -o "main.o" --omf_browse "main.crf" --depend "main.d")
+F (..\usr\netconf.c)(0x4B065C40)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\inc -I F:\Keil_v5\ARM\RV31\INC -I F:\Keil_v5\ARM\CMSIS\Include -I F:\Keil_v5\ARM\Inc\ST\STM32F10x -o "netconf.o" --omf_browse "netconf.crf" --depend "netconf.d")
+F (..\usr\stm32f10x_it.c)(0x4B065C40)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\inc -I F:\Keil_v5\ARM\RV31\INC -I F:\Keil_v5\ARM\CMSIS\Include -I F:\Keil_v5\ARM\Inc\ST\STM32F10x -o "stm32f10x_it.o" --omf_browse "stm32f10x_it.crf" --depend "stm32f10x_it.d")
+I (..\inc\stm32f10x_it.h)(0x4B065C40)
+I (F:\Keil_v5\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+F (..\usr\stm32f107.c)(0x4B065C40)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\inc -I F:\Keil_v5\ARM\RV31\INC -I F:\Keil_v5\ARM\CMSIS\Include -I F:\Keil_v5\ARM\Inc\ST\STM32F10x -o "stm32f107.o" --omf_browse "stm32f107.crf" --depend "stm32f107.d")
+F (..\lwip-1.3.1\port\ethernetif.c)(0x4B065C40)()
+F (..\lwip-1.3.1\port\httpd.c)(0x4B065C40)()
+F (..\lwip-1.3.1\src\api\api_lib.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\api_msg.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\err.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\netbuf.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\netdb.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\netifapi.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\sockets.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\api\tcpip.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\dhcp.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\dns.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\init.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\mem.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\memp.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\netif.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\pbuf.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\raw.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\stats.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\sys.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\tcp.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\tcp_in.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\tcp_out.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\udp.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\autoip.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\icmp.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\igmp.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\inet.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\inet_chksum.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\ip.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\ip_addr.c)(0x4B065C42)()
+F (..\lwip-1.3.1\src\core\ipv4\ip_frag.c)(0x4B065C42)()
+F (..\Libraries\STM32_ETH_Driver\src\stm32_eth.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x4B065C3E)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x4B065C40)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x4B065C40)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x4B065C40)()

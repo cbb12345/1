@@ -1,0 +1,44 @@
+#ifndef __STM32FLASH_H__
+#define __STM32FLASH_H__
+
+#include "stm32f10x.h"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//用户根据自己的需要设置
+#define STM32_FLASH_SIZE 512 	 		//所选STM32的FLASH容量大小(单位为K)
+#define STM32_FLASH_WREN 1        //使能FLASH写入(0->失能;1->使能)
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//参数存储设备选择 PARA_STORAGE_DEVICE 可选 FLASH_STM32 或 FLASH_AT24C02
+#define FLASH_AT24C02			1				
+#define FLASH_STM32				2				
+#define PARA_STORAGE_DEVICE 	FLASH_STM32			//选择将参数保存到stm32的内部flash
+
+#if (PARA_STORAGE_DEVICE == FLASH_STM32)
+#define PARA_STORAGE_ADDR 		(0x8000000+0x3F800)	//参数存储地址,表示存储到STM32的Falsh的第127页上
+#endif
+
+//FLASH起始地址
+#define STM32_FLASH_BASE 0x08000000 	//STM32 FLASH的起始地址
+
+void STMFLASH_Read(u32 ReadAddr,u16 *pBuffer,u16 NumToRead);		//从指定地址开始读出指定长度的数据
+void STMFLASH_Write(u32 WriteAddr,u16 *pBuffer,u16 NumToWrite);		//从指定地址开始写入指定长度的数据
+								   
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
